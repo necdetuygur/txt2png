@@ -1,0 +1,29 @@
+{
+  "name": "txt2png",
+  "version": "1.0.11",
+  "description": "txt2png",
+  "main": "index.js",
+  "bin": {
+    "txt2png": "bin/txt2png"
+  },
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necdetuygur/txt2png.git"
+  },
+  "keywords": [
+    "txt2png"
+  ],
+  "author": "Necdet UYGUR <necdet.uygur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/necdetuygur/txt2png/issues"
+  },
+  "homepage": "https://github.com/necdetuygur/txt2png#readme",
+  "dependencies": {
+    "canvas": "^3.2.0"
+  }
+}
